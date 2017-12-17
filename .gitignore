@@ -1,2 +1,5 @@
 *.kdev4
 shapefiles
+map-geojson
+map-shapefile
+map-shapefiles
