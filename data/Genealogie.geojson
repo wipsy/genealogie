@@ -1,59 +1,906 @@
 {
-"type": "FeatureCollection",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
-"features": [
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "1", "firstname": "Alain", "name": "Forest", "birth": "1929", "birth place": "Orléans(45)", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "2", "firstname": "André", "name": "Forest", "birth": "1902", "birth place": "Lille(59)", "death": "1980" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "3", "firstname": "Odette", "name": "Fourniquet", "birth": "1902", "birth place": "Boynes(45)", "death": "1942" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "4", "firstname": "Jules", "name": "Forest", "birth": "1872", "birth place": "Bourbourg(59)", "death": "1954" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "5", "firstname": "Marguerite", "name": "Adam", "birth": "1873", "birth place": "Tournai(13)", "death": "1923" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "8", "firstname": "Jules", "name": "Forest", "birth": "1842", "birth place": "Bourbourg(59)", "death": "1926" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "9", "firstname": "Elisabeth", "name": "Vandroy", "birth": "1846", "birth place": "Bourbourg(59)", "death": "1919" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.3733, "longitude": 3.0257, "id": "11", "firstname": "Egenie", "name": "Adam", "birth": "1854", "birth place": "Wazemmes", "death": "1926" }, "geometry": { "type": "Point", "coordinates": [ 3.0257, 50.3733 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "16", "firstname": "Etienne", "name": "Forest", "birth": "1809", "birth place": "Bourbourg(59)", "death": "1892" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "17", "firstname": "Sophie", "name": "Billiet", "birth": "1809", "birth place": "Bourbourg(59)", "death": "1897" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "18", "firstname": "Amand", "name": "Vandroy", "birth": "1820", "birth place": "Bourbourg(59)", "death": "1865" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "19", "firstname": "Marie Barbe", "name": "Duytsche", "birth": "1820", "birth place": "Bourbourg(59)", "death": "1892" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "22", "firstname": "Jean", "name": "Adam", "birth": "1822", "birth place": "Liege(Be)", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "23", "firstname": "Pauline", "name": "Delaplace", "birth": "1822", "birth place": "Marquette()", "death": "1862" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "32", "firstname": "Etienne", "name": "Forest", "birth": "1760", "birth place": "Saint Georges(62)", "death": "1832" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 50.565, "longitude": 2.1155, "id": "33", "firstname": "Françoise", "name": "Compiegne", "birth": "1762", "birth place": "Bourbourg(59)", "death": "1843" }, "geometry": { "type": "Point", "coordinates": [ 2.1155, 50.565 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "34", "firstname": "Jacques", "name": "Billiet", "birth": "1769", "birth place": "Watten", "death": "1836" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "35", "firstname": "Therese", "name": "Casteloot", "birth": "1769", "birth place": "Saint Georges(62)", "death": "1850" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "36", "firstname": "Jean Baptiste", "name": "Vandroy", "birth": "1788", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "37", "firstname": "Jeanne", "name": "Testelin", "birth": "1782", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "38", "firstname": "Pierre", "name": "Duytsche", "birth": "1786", "birth place": "", "death": "1834" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "39", "firstname": "Sophie", "name": "Decuyper", "birth": "1787", "birth place": "", "death": "1829" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "64", "firstname": "Jean Baptiste", "name": "Forest", "birth": "1723", "birth place": "", "death": "1799" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "65", "firstname": "Anne", "name": "Vandamme", "birth": "1720", "birth place": "", "death": "1774" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "66", "firstname": "Louis", "name": "Compiegne", "birth": "1737", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "67", "firstname": "Jeanne", "name": "Deknut", "birth": "1739", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "68", "firstname": "Jacques", "name": "Billiet", "birth": "1747", "birth place": "", "death": "1796" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "69", "firstname": "Catherine", "name": "Lievin", "birth": "1744", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "70", "firstname": "Guillaume", "name": "Casteloot", "birth": "1743", "birth place": "", "death": "1813" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "71", "firstname": "Victoire", "name": "Galle", "birth": "1746", "birth place": "", "death": "1802" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "72", "firstname": "François", "name": "Vandroy", "birth": "1751", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "73", "firstname": "Jeanne", "name": "Druez", "birth": "1752", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "74", "firstname": "Barthelemy", "name": "Testelin", "birth": "1748", "birth place": "", "death": "1783" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "75", "firstname": "Jeanne", "name": "Monbrun", "birth": "1756", "birth place": "", "death": "1818" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "76", "firstname": "Pierre", "name": "Duytsche", "birth": "1749", "birth place": "", "death": "1820" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "77", "firstname": "Cecile", "name": "Staessen", "birth": "1752", "birth place": "", "death": "1837" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "78", "firstname": "Guillaume", "name": "Decuyper", "birth": "1736", "birth place": "", "death": "1800" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "79", "firstname": "Gabrielle", "name": "Goossen", "birth": "1759", "birth place": "", "death": "1848" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "128", "firstname": "François", "name": "Forest", "birth": "1689", "birth place": "", "death": "1739" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "129", "firstname": "Philippine", "name": "Loois", "birth": "1691", "birth place": "", "death": "1735" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "130", "firstname": "François", "name": "Vandamme", "birth": "", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "131", "firstname": "Marguerite", "name": "Perdu", "birth": "", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "136", "firstname": "Jacques", "name": "Billiet", "birth": "1758", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "137", "firstname": "Jeanne", "name": "Evrard", "birth": "1794", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "140", "firstname": "Nicolas", "name": "Casteloot", "birth": "1697", "birth place": "", "death": "1767" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "141", "firstname": "Therese", "name": "Derickx", "birth": "1690", "birth place": "", "death": "1761" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "144", "firstname": "Féré", "name": "Vandroy", "birth": "1711", "birth place": "", "death": "1794" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "148", "firstname": "Pierre", "name": "Testelin", "birth": "", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "149", "firstname": "Angelique", "name": "Arduin", "birth": "", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "150", "firstname": "Antoine", "name": "Monbrun", "birth": "", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "151", "firstname": "Catherine", "name": "Demazieres", "birth": "", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "152", "firstname": "Jean Baptiste", "name": "Duytsche", "birth": "1709", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } },
-{ "type": "Feature", "properties": { "latitude": 0.0, "longitude": 0.0, "id": "153", "firstname": "Anne", "name": "Dotthel", "birth": "1717", "birth place": "", "death": "" }, "geometry": { "type": "Point", "coordinates": [ 0.0, 0.0 ] } }
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 1.90888888888889,47.9025 ]
+    },
+    "properties": {
+    "lat_DMS":"47:54:09",
+    "lon_DMS":"1:54:32",
+    "id":1,
+    "firstname":"Alain",
+    "name":"Forest",
+    "birth":1929,
+    "birth place":"Orléans(45)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.06333333333333,50.6372222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:38:14",
+    "lon_DMS":"3:03:48",
+    "id":2,
+    "firstname":"André",
+    "name":"Forest",
+    "birth":1902,
+    "birth place":"Lille(59)",
+    "death":1980
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.36083333333333,48.1208333333333 ]
+    },
+    "properties": {
+    "lat_DMS":"48:07:15",
+    "lon_DMS":"2:21:39",
+    "id":3,
+    "firstname":"Odette",
+    "name":"Fourniquet",
+    "birth":1902,
+    "birth place":"Boynes(45)",
+    "death":1942
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":4,
+    "firstname":"Jules",
+    "name":"Forest",
+    "birth":1872,
+    "birth place":"Bourbourg(59)",
+    "death":1954
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.38333333333333,50.6 ]
+    },
+    "properties": {
+    "lat_DMS":"50:36:00",
+    "lon_DMS":"3:23:00",
+    "id":5,
+    "firstname":"Marguerite",
+    "name":"Adam",
+    "birth":1873,
+    "birth place":"Tournai(B)",
+    "death":1923
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":8,
+    "firstname":"Jules",
+    "name":"Forest",
+    "birth":1842,
+    "birth place":"Bourbourg(59)",
+    "death":1926
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":9,
+    "firstname":"Elisabeth",
+    "name":"Vandroy",
+    "birth":1846,
+    "birth place":"Bourbourg(59)",
+    "death":1919
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.04916666666667,50.6258333333333 ]
+    },
+    "properties": {
+    "lat_DMS":"50:37:33",
+    "lon_DMS":"3:02:57",
+    "id":11,
+    "firstname":"Egenie",
+    "name":"Adam",
+    "birth":1854,
+    "birth place":"Wazemmes(59)",
+    "death":1926
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":16,
+    "firstname":"Etienne",
+    "name":"Forest",
+    "birth":1809,
+    "birth place":"Bourbourg(59)",
+    "death":1892
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":17,
+    "firstname":"Sophie",
+    "name":"Billiet",
+    "birth":1809,
+    "birth place":"Bourbourg(59)",
+    "death":1897
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":18,
+    "firstname":"Amand",
+    "name":"Vandroy",
+    "birth":1820,
+    "birth place":"Bourbourg(59)",
+    "death":1865
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":19,
+    "firstname":"Marie Barbe",
+    "name":"Duytsche",
+    "birth":1820,
+    "birth place":"Bourbourg(59)",
+    "death":1892
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 5.57555555555556,50.6452777777778 ]
+    },
+    "properties": {
+    "lat_DMS":"50:38:43",
+    "lon_DMS":"5:34:32",
+    "id":22,
+    "firstname":"Jean",
+    "name":"Adam",
+    "birth":1822,
+    "birth place":"Liege(B)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.06666666666667,50.6763888888889 ]
+    },
+    "properties": {
+    "lat_DMS":"50:40:35",
+    "lon_DMS":"3:04:00",
+    "id":23,
+    "firstname":"Pauline",
+    "name":"Delaplace",
+    "birth":1822,
+    "birth place":"Marquette(59)",
+    "death":1862
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.085,50.3588888888889 ]
+    },
+    "properties": {
+    "lat_DMS":"50:21:32",
+    "lon_DMS":"2:05:06",
+    "id":32,
+    "firstname":"Etienne",
+    "name":"Forest",
+    "birth":1760,
+    "birth place":"Saint Georges(62)",
+    "death":1832
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":33,
+    "firstname":"Françoise",
+    "name":"Compiegne",
+    "birth":1762,
+    "birth place":"Bourbourg(59)",
+    "death":1843
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.21333333333333,50.8336111111111 ]
+    },
+    "properties": {
+    "lat_DMS":"50:50:01",
+    "lon_DMS":"2:12:48",
+    "id":34,
+    "firstname":"Jacques",
+    "name":"Billiet",
+    "birth":1769,
+    "birth place":"Watten(59)",
+    "death":1836
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.085,50.3588888888889 ]
+    },
+    "properties": {
+    "lat_DMS":"50:21:32",
+    "lon_DMS":"2:05:06",
+    "id":35,
+    "firstname":"Therese",
+    "name":"Casteloot",
+    "birth":1769,
+    "birth place":"Saint Georges(62)",
+    "death":1850
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":36,
+    "firstname":"Jean Baptiste",
+    "name":"Vandroy",
+    "birth":1788,
+    "birth place":"Bourbourg(59)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":37,
+    "firstname":"Jeanne",
+    "name":"Testelin",
+    "birth":1782,
+    "birth place":"Bourbourg(59)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.3775,51.0383333333333 ]
+    },
+    "properties": {
+    "lat_DMS":"51:02:18",
+    "lon_DMS":"2:22:39",
+    "id":38,
+    "firstname":"Pierre",
+    "name":"Duytsche",
+    "birth":1786,
+    "birth place":"Dunkerque(59)",
+    "death":1834
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":39,
+    "firstname":"Sophie",
+    "name":"Decuyper",
+    "birth":1787,
+    "birth place":"Bourbourg(59)",
+    "death":1829
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.085,50.3588888888889 ]
+    },
+    "properties": {
+    "lat_DMS":"50:21:32",
+    "lon_DMS":"2:05:06",
+    "id":64,
+    "firstname":"Jean Baptiste",
+    "name":"Forest",
+    "birth":1723,
+    "birth place":"Saint Georges(62)",
+    "death":1799
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.085,50.3588888888889 ]
+    },
+    "properties": {
+    "lat_DMS":"50:21:32",
+    "lon_DMS":"2:05:06",
+    "id":65,
+    "firstname":"Anne",
+    "name":"Vandamme",
+    "birth":1720,
+    "birth place":"Saint Georges(62)",
+    "death":1774
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.22055555555556,50.9947222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:59:41",
+    "lon_DMS":"2:13:14",
+    "id":66,
+    "firstname":"Louis",
+    "name":"Compiegne",
+    "birth":1737,
+    "birth place":"Loon(59)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.27611111111111,50.9169444444444 ]
+    },
+    "properties": {
+    "lat_DMS":"50:55:01",
+    "lon_DMS":"2:16:34",
+    "id":67,
+    "firstname":"Jeanne",
+    "name":"Deknut",
+    "birth":1739,
+    "birth place":"Looberghe(59)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.18333333333333,50.6041666666667 ]
+    },
+    "properties": {
+    "lat_DMS":"50:36:15",
+    "lon_DMS":"2:11:00",
+    "id":68,
+    "firstname":"Jacques",
+    "name":"Billiet",
+    "birth":1747,
+    "birth place":"Coyecques(62)",
+    "death":1796
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":69,
+    "firstname":"Catherine",
+    "name":"Lievin",
+    "birth":1744,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":70,
+    "firstname":"Guillaume",
+    "name":"Casteloot",
+    "birth":1743,
+    "birth place":"Bourbourg(59)",
+    "death":1813
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.42555555555556,50.9361111111111 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:10",
+    "lon_DMS":"2:25:32",
+    "id":71,
+    "firstname":"Victoire",
+    "name":"Galle",
+    "birth":1746,
+    "birth place":"Socx(59)",
+    "death":1802
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.26166666666667,50.7461111111111 ]
+    },
+    "properties": {
+    "lat_DMS":"50:44:46",
+    "lon_DMS":"2:15:42",
+    "id":72,
+    "firstname":"François",
+    "name":"Vandroy",
+    "birth":1751,
+    "birth place":"Saint Omer(62)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.26166666666667,50.7461111111111 ]
+    },
+    "properties": {
+    "lat_DMS":"50:44:46",
+    "lon_DMS":"2:15:42",
+    "id":73,
+    "firstname":"Jeanne",
+    "name":"Druez",
+    "birth":1752,
+    "birth place":"Saint Omer(62)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 3.0025,50.5941666666667 ]
+    },
+    "properties": {
+    "lat_DMS":"50:35:39",
+    "lon_DMS":"3:00:09",
+    "id":74,
+    "firstname":"Barthelemy",
+    "name":"Testelin",
+    "birth":1748,
+    "birth place":"Emmerin(59)",
+    "death":1783
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":75,
+    "firstname":"Jeanne",
+    "name":"Monbrun",
+    "birth":1756,
+    "birth place":"Bourbourg(59)",
+    "death":1818
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.58611111111111,50.9802777777778 ]
+    },
+    "properties": {
+    "lat_DMS":"50:58:49",
+    "lon_DMS":"2:35:10",
+    "id":76,
+    "firstname":"Pierre",
+    "name":"Duytsche",
+    "birth":1749,
+    "birth place":"Hondschoote(59)",
+    "death":1820
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":77,
+    "firstname":"Cecile",
+    "name":"Staessen",
+    "birth":1752,
+    "birth place":"Bourbourg(59)",
+    "death":1837
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":78,
+    "firstname":"Guillaume",
+    "name":"Decuyper",
+    "birth":1736,
+    "birth place":"Bourbourg(59)",
+    "death":1800
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.19861111111111,50.9472222222222 ]
+    },
+    "properties": {
+    "lat_DMS":"50:56:50",
+    "lon_DMS":"2:11:55",
+    "id":79,
+    "firstname":"Gabrielle",
+    "name":"Goossen",
+    "birth":1759,
+    "birth place":"Bourbourg(59)",
+    "death":1848
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":128,
+    "firstname":"François",
+    "name":"Forest",
+    "birth":1689,
+    "birth place":"",
+    "death":1739
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":129,
+    "firstname":"Philippine",
+    "name":"Loois",
+    "birth":1691,
+    "birth place":"",
+    "death":1735
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":130,
+    "firstname":"François",
+    "name":"Vandamme",
+    "birth":null,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":131,
+    "firstname":"Marguerite",
+    "name":"Perdu",
+    "birth":null,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":136,
+    "firstname":"Jacques",
+    "name":"Billiet",
+    "birth":null,
+    "birth place":"",
+    "death":1758
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":137,
+    "firstname":"Jeanne",
+    "name":"Evrard",
+    "birth":null,
+    "birth place":"",
+    "death":1794
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.22333333333333,50.9025 ]
+    },
+    "properties": {
+    "lat_DMS":"50:54:09",
+    "lon_DMS":"2:13:24",
+    "id":140,
+    "firstname":"Nicolas",
+    "name":"Casteloot",
+    "birth":1697,
+    "birth place":"Cappelle-Brouck(59)",
+    "death":1767
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.43333333333333,50.9666666666667 ]
+    },
+    "properties": {
+    "lat_DMS":"50:58:00",
+    "lon_DMS":"2:26:00",
+    "id":141,
+    "firstname":"Therese",
+    "name":"Derickx",
+    "birth":1699,
+    "birth place":"Bergues(59)",
+    "death":1761
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.26166666666667,50.7461111111111 ]
+    },
+    "properties": {
+    "lat_DMS":"50:44:46",
+    "lon_DMS":"2:15:42",
+    "id":144,
+    "firstname":"Féré",
+    "name":"Vandroy",
+    "birth":1711,
+    "birth place":"Saint Omer(62)",
+    "death":1794
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":148,
+    "firstname":"Pierre",
+    "name":"Testelin",
+    "birth":null,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":149,
+    "firstname":"Angelique",
+    "name":"Arduin",
+    "birth":null,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":150,
+    "firstname":"Antoine",
+    "name":"Monbrun",
+    "birth":null,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "lat_DMS":"",
+    "lon_DMS":"",
+    "id":151,
+    "firstname":"Catherine",
+    "name":"Demazieres",
+    "birth":null,
+    "birth place":"",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.58611111111111,50.9802777777778 ]
+    },
+    "properties": {
+    "lat_DMS":"50:58:49",
+    "lon_DMS":"2:35:10",
+    "id":152,
+    "firstname":"Jean Baptiste",
+    "name":"Duytsche",
+    "birth":1709,
+    "birth place":"Hondschoote(59)",
+    "death":null
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 2.44472222222222,51.0194444444444 ]
+    },
+    "properties": {
+    "lat_DMS":"51:01:10",
+    "lon_DMS":"2:26:41",
+    "id":153,
+    "firstname":"Anne",
+    "name":"Dotthel",
+    "birth":1717,
+    "birth place":"Téteghem(59)",
+    "death":null
+    }
+  }
 ]
 }
